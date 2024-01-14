@@ -47,18 +47,19 @@ right_answer_text = QLabel("Відповідь")
 
 result_line = QVBoxLayout()
 result_line.addWidget(result_text)
-result_line.addWidget(right_answer_text, alignment=Qt.AlighCenter, stretch= 2)
+result_line.addWidget(right_answer_text, alignment=Qt.AlignCenter, stretch= 2)
 
 result_box.setLayout(result_line)
-result_box.hide
+result_box.hide()
 
 answer_btn = QPushButton("Відповідь")
 
 
 main_line = QVBoxLayout()
 main_line.addLayout(row1 ,stretch= 1)
-main_line.addWidget(question_lb, stretch = 2, alignment=Qt.AlighCenter)
+main_line.addWidget(question_lb, stretch = 2, alignment=Qt.AlignCenter)
 main_line.addWidget(group_box, stretch = 6)
+main_line.addWidget(result_box, stretch = 6)
 main_line.addWidget(answer_btn, stretch = 3)
 
 
