@@ -43,7 +43,7 @@ group_box.setLayout(row2)
 
 result_box = QGroupBox("Результат")
 result_text = QLabel("Правильно")
-right_answer_text = QLabel("Відповідь")
+right_answer_text = QLabel("Відповісти")
 
 result_line = QVBoxLayout()
 result_line.addWidget(result_text)
@@ -52,7 +52,7 @@ result_line.addWidget(right_answer_text, alignment=Qt.AlignCenter, stretch= 2)
 result_box.setLayout(result_line)
 result_box.hide()
 
-answer_btn = QPushButton("Відповідь")
+answer_btn = QPushButton("Відповісти")
 
 
 main_line = QVBoxLayout()
